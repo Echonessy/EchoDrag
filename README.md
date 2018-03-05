@@ -2,5 +2,8 @@
 
 > this is my project
 
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+ var Drag =  new EchoDrag();
+    Drag.Config({
+        OrgEle:'#LeftBox', // 左侧元素
+        TargetEle:'#RightBox' //右侧目标
+    });
