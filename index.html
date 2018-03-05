@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EchoDrag</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/Echodrag.js"></script>
+</head>
+<body>
+<div class="Content">
+    <!--格式如下-->
+    <ul class="LeftBox" id="LeftBox">
+        <li data-type="0" draggable="true" class="Bac24">输入框</li>
+        <li data-type="1" draggable="true" class="BacA8">div</li>
+        <li data-type="2" draggable="true" class="BacC0">图片</li>
+        <li data-type="3" draggable="true" class="Bac28">按钮</li>
+    </ul>
+    <ul class="RightBox" id="RightBox"></ul>
+</div>
+<script>
+    var Drag =  new EchoDrag();
+    Drag.Config({
+        OrgEle:'#LeftBox', // 左侧元素
+        TargetEle:'#RightBox' //右侧目标
+    });
+</script>
+</body>
+</html>
