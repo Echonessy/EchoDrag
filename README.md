@@ -30,8 +30,8 @@ Js:
 ```
 ## 效果图
 
-![image](https://github.com/Echonessy/EchoSnake/blob/master/read/1.png)
-![image](https://github.com/Echonessy/EchoSnake/blob/master/read/2.png)
+![image](https://github.com/Echonessy/EchoDrag/blob/master/read/1.png)
+![image](https://github.com/Echonessy/EchoDrag/blob/master/read/2.png)
 
 #可定义右侧模板
 ``` bash
